@@ -14,7 +14,10 @@ class App extends Component {
   }
 
   shuffle() {
-    console.log(Math.floor(Math.random(this.state.characters.length)* 10))
+    for (let i = 11; i > 0; i--) {
+      let j = Math.floor(Math.random() * 10);
+      [characters[i], characters[j]] = [characters[j], characters[i]];
+    }
   }
 
   clicked = id => {
