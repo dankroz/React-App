@@ -1,3 +1,8 @@
+#My Project
+
+This game has the player click on different character cards. The goal is to have them click as many as possible without clicking the same card twice. After any card is clicked the order is reshuffled to make it harder on the player.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
