@@ -23,7 +23,7 @@ class App extends Component {
   clicked = id => {
     const selectedCharacters = this.state.selectedCharacters;
     if (selectedCharacters.includes(id)) {
-      console.log("oh no you lose, loser")
+      alert("Sorry, you lost!")
       this.setState({ score: 0})
       this.setState({ selectedCharacters: [] })
       this.shuffle();
