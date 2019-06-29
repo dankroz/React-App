@@ -1,0 +1,16 @@
+.card {
+    border-radius: 2px;
+    width: 30%;
+    height: 10%;
+    display: inline-table;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.img {
+    height: 10%;
+    width: 10%;
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -1,0 +1,21 @@
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: blue;
+}
+
+#title {
+    margin-left: 2%;
+}
+
+#clickPic {
+    margin-left: 20%;
+}
+
+#score{
+    margin-left: 10%;
+}
+
+#highScore {
+    margin-left: 2%;
+}
